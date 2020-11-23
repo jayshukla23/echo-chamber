@@ -1,0 +1,17 @@
+.ecAvatar__container {
+  height: 100%;
+  background: #c6d9ec;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  p {
+    font-family: 'Nerko One', cursive;    
+    color: #404040;
+    font-size: 40px;
+  }
+  .ecAvatar__list {
+    display: flex;
+    margin-top: 20px;
+  }
+}

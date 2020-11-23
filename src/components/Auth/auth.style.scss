@@ -1,0 +1,59 @@
+.ecAuth__container {
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+  height: 100%;
+  .ecAuth__sidebar, .ecAuth__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+  }  
+  .ecAuth__sidebar {
+    background: #264d73;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .ecAuth__logo {
+      width: 50%;
+    }
+  }  
+  .ecAuth__content {
+    background: #c6d9ec;
+    flex-direction: column;
+    font-family: 'Nerko One', cursive;
+    padding: 25px;
+    p {      
+      font-size: 36px;
+      color: #404040;
+      span {
+        font-size: 56px;
+        color: #264d73;
+        text-decoration: wavy;
+        text-transform: uppercase;
+      }
+    }   
+    .ecAuth__text-input {
+      font-family: 'Nerko One', cursive;
+      color: #264d73;
+      margin: 40px auto;
+      padding: 15px 20px;
+      font-size: 36px;
+      outline: none;
+      border: 2px solid #264d73;
+      border-radius: 8px;
+    } 
+    .ecAuth__btn {
+      padding: 8px 10px;      
+      border: 2px solid #404040;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: transform 0.5s, background 0.5s;
+    }
+    .ecAuth__btn:hover {
+      background: #264d73;      
+      transform: scale(1.08);
+      p {
+        color: white;        
+      }      
+    }
+  }  
+}

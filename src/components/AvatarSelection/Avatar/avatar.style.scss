@@ -1,0 +1,18 @@
+.ecAvatar__tile {
+  padding: 50px 30px;  
+  border: 2px solid #404040;  
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin: 20px;
+  transition: transform 0.2s, background 0.2s;
+  cursor: pointer;  
+  img {
+    width: 50%;
+  }
+}
+.ecAvatar__tile:hover {
+  background: #264d73;      
+  transform: scale(1.08);  
+}
